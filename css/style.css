@@ -1,0 +1,109 @@
+body{
+    background-color: gainsboro;
+    color: honeydew;
+    font-family: serif;
+    font-size: x-small;
+    line-height: 1.6em;
+    margin: 0%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: indigo;
+    color: lawngreen;
+}
+#navbar{
+    background-color: lightsalmon;
+    color: midnightblue;
+}
+#navbar ul{
+    padding: 0%;
+    list-style: none;
+}
+#navbar li{
+    display: inline-flex;
+    align-items: flex-end;
+}
+#navbar a{
+    color: #000;
+    text-decoration: wavy;
+    text-shadow: whitesmoke;
+    font-family: serif;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showCase{
+    background-image: url(../Images/Welcome-page.jpg);
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+#showCase h1{
+    float: left;
+    color: cornsilk;
+    font-size: large;
+    line-height: unset;
+    padding: 30px;
+}
+#main h1{
+    background: grey;
+    width: 100%;
+    color: purple;
+    padding-left:10px;
+    font-family: monospace;
+    font-size:xx-large;
+
+}
+#main{
+    background: grey;
+    width: 100%;
+    color: black;
+    padding-left:10px 70px;
+    font-family: monospace;
+    font-size: medium;
+}
+#sidebar{
+    background:round;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    text-align: center;    
+}
+#items h1{
+    color: black;
+    font-style: italic;
+    font-weight: bolder;  
+} 
+#items img{
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 200px;
+}
+#main-footer{
+    background:black;
+    color:cornsilk;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: large;
+}
+
+@media(max-widht:500px){
+    #main{
+        width: 50px;
+        float: none;
+    }
+    #sidebar{
+        width: 50px;
+        float: none;
+    }
+
+}
